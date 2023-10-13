@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    
+    
+}
+
+body{
+    background-image: url('/home/img/fundo.jpg');
+    background-size: cover;
+    /* background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-attachment: fixed; /* Fixa a imagem no lugar enquanto a página rola */
+    background-position: center center;  
+}
+
+
+
+.main-corpo{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    margin: 250px;
+    background-color: #385630b2;
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+
+.main-corpo h1{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    font-weight: 600;
+}
+
+
+.btns{
+    border-radius: 8px;
+    height: 50px;
+    width: 150px;
+    background-color: #385630;
+    border-color: #356328;
+    color: #fff;
+    transition: 0.9s ease;
+}
+
+.btns:hover{
+    background-color: #3c8d17;
+}
+
+.elementolist{
+    background-color: #385630;
+    margin: 10px;
+    padding: 40px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 10px;
+}
+
+.list {
+    /* background-color: yellow; */
+    max-height: 200px; /* Defina a altura máxima que desejar */
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical quando a lista excede a altura máxima */
+}
+
+
+/* Estilo para os itens da lista */
+li {
+    display: flex; /* Para alinhar os elementos na horizontal */
+    align-items: center; /* Alinha verticalmente os elementos na caixa */
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+}
+
+/* Estilo para a checkbox */
+input[type="checkbox"] {
+    margin-right: 100px; /* Espaçamento entre a checkbox e o texto do item */
+}
+
+/* Estilo para o botão de exclusão */
+button {
+    margin-left: 100px; 
+    border-radius: 8px;
+    height: 50px;
+    width: 80px;
+    background-color: #385630;
+    border-color: #356328;
+    color: #fff;
+    transition: 0.9s ease;/* Espaçamento entre o texto do item e o botão de exclusão */
+}
+
+button:hover{
+    background-color: #356328;
+}
+
+span{
+    margin-right: 100px;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.list-item button {
+    margin-left: 10px;
+    margin-right: 15px;
+    
+}
+
+
